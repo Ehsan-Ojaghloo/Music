@@ -1,0 +1,81 @@
+@use "./../base/colors.scss" as *;
+
+.trending-music {
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-left: 25px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        z-index: -99;
+    }
+
+    .dots {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        font-size: 1.5rem;
+    }
+
+    .trending-music-player {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 85%;
+        padding: 10px;
+        padding-bottom: 15px;
+        border-radius: 10px;
+        border-radius: 16px;
+        position: absolute;
+        bottom: 30px;
+        margin-left: 9px;
+        background-color: $main-blue;
+        background: rgba(60, 58, 190, 0.51);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5.1px);
+        -webkit-backdrop-filter: blur(5.1px);
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h3 {
+                font-size: 0.8rem;
+            }
+
+            span {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 4px;
+                font-size: 0.6rem;
+                margin-top: -5px;
+            }
+
+        }
+
+        .play-button-con {
+            background-color: $main-white;
+            color: black;
+            padding: 10px;
+            border-radius: 60px;
+
+            .play-button {
+                margin-left: 1px;
+            }
+
+        }
+
+    }
+
+}

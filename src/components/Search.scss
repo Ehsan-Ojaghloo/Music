@@ -1,0 +1,33 @@
+@use "./../base/colors.scss" as *;
+
+.search-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2px;
+    padding: 8px 0px 8px 10px;
+    width: 85%;
+    border-radius: 8px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.21);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.6px);
+    -webkit-backdrop-filter: blur(5.6px);
+
+    input {
+        background: transparent;
+        outline: none;
+        border: none;
+        color: $main-grey;
+        width: 85%;
+        padding: 5px;
+        color: $main-white;
+    }
+
+    input::placeholder {
+        color: $main-grey;
+    }
+
+}

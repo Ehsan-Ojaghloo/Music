@@ -1,0 +1,26 @@
+@use "../base/colors" as *;
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: $main-white;
+    list-style-type: none;
+    margin-right: 25px;
+    font-size: 0.9rem;
+    
+    li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 330px;
+    }
+
+    li.active {
+        background-color: $main-blue;
+        padding: 8px;
+        border-radius: 5px;
+    }
+}

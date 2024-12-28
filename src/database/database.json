@@ -1,0 +1,16 @@
+{
+    "songs":[
+        {
+            "id": "0",
+            "songName": "The Dark Side",
+            "singer": "Muse - Simulation Theory",
+            "songCover": "/assets/the-dark-times.jpg"
+        },
+        {
+            "id": "0",
+            "songName": "Enemy",
+            "singer": "Imagine Dragons",
+            "songCover": "/assets/enemy.jpg"
+        }
+    ]
+}

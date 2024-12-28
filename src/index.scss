@@ -1,0 +1,10 @@
+@use "./base/colors.scss" as *;
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0D1025;
+    color: $main-white;
+    font-family: sans-serif;
+}
